@@ -9,7 +9,9 @@ import data_utils
 
 load_fn = data_utils.load_cls_train_val
 map_fn = None
-save_ply_fn = None
+#save_ply_fn = None
+#save_ply_fn = data_utils.save_ply
+save_ply_fn = data_utils.save_ply_batch
 
 num_class = 40
 
